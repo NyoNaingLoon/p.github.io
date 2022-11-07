@@ -13,7 +13,7 @@ Email.send({
     Password : "62713203219A046611C1788488198A1880CB",
     //SecureToken : "ba31706b-388f-489e-b5e8-007b3465a1ab",
     To : 'nyonaingloon327@gmail.com',
-    From :'nyonaingloon327@gmail.com',
+    From :email.value,
     Subject : "Contact Form",
     Body : msg.value
 }).then(
